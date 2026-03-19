@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 plt.style.use("Solarize_Light2")
 fig,ax=plt.subplots(2,2)
 
-API_KEY="d5748db7ff1e24a1872c8fa2842b112c"
+API_KEY="your-api-key"
 cities=["Lahore","Karachi","Islamabad","Peshawar","Sialkot","Multan"]
 
 Temperature=[]
