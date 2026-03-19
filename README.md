@@ -1,33 +1,44 @@
-Pakistan Weather Dashboard
+# Pakistan Weather Dashboard
+
 A real-time weather dashboard that fetches live weather data for major Pakistani cities and visualizes it using Matplotlib.
-Features
 
-Fetches live weather data using OpenWeatherMap API
-Displays Temperature, Humidity, Wind Speed and Cloud Cover
-4 different chart types — Bar charts and Scatter plot
-Covers 6 major Pakistani cities — Lahore, Karachi, Islamabad, Peshawar, Sialkot, Multan
+## Features
 
-Tech Stack
+- Fetches live weather data using OpenWeatherMap API
+- Displays Temperature, Humidity, Wind Speed and Cloud Cover
+- 4 different chart types — Bar charts and Scatter plot
+- Covers 6 major Pakistani cities — Lahore, Karachi, Islamabad, Peshawar, Sialkot, Multan
 
-Python
-Matplotlib
-Pandas
-OpenWeatherMap API
-Requests library
+## Tech Stack
 
-Setup
+- Python
+- Matplotlib
+- OpenWeatherMap API
+- Requests library
 
-Clone the repository
-Install dependencies:
+## Setup
 
-pip install matplotlib pandas requests
+1. Clone the repository:
+```bash
+git clone https://github.com/izhaan-mubeen/Pakistan-Weather-Dashboard.git
+cd Pakistan-Weather-Dashboard
+```
 
-Get a free API key from openweathermap.org
-Replace API_KEY in weather.py with your key
-Run:
+2. Install required libraries:
+```bash
+pip install matplotlib requests
+```
+## Getting a NewsAPI Key
 
+3. Sign up for free at  openweathermap.org to get your API key.
+
+4. Replace API_KEY in weather.py with your key
+
+5. Run:
 python weather.py
-Author
+
+## Author
+
 Izhaan Mubeen
 Mechatronics and Control Engineering Student
-GitHub: github.com/izhaan-mubeen
+GitHub: https://github.com/izhaan-mubeen
